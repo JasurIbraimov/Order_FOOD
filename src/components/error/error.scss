@@ -1,0 +1,17 @@
+.error {
+    padding: 50px 40px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    &__title {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    &__descr {
+        text-align: center;
+        font-size: 1rem;
+    }
+}
